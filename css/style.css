@@ -1,0 +1,139 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+html {
+  font-family: Montserrat1, sans-serif;
+}
+body {
+  font-family: Montserrat;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+
+.parallax-container {
+  height: 100vh;
+
+}
+section {
+  height: 100%;
+  padding-top: 100px;
+}
+.ue-embedded-widget{
+  min-height: 380px;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.navbar-fixed {
+  position: fixed;
+}
+.big-logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+      width: 40%;
+      max-width: 420px;
+}
+.name {
+  text-align: center;
+      font-size: 65px;
+      display: block;
+      font-weight: 900;
+      }
+.second-name {
+  text-align: center;
+      font-size: 27px;
+      line-height: 10px;
+      letter-spacing: 1px;
+      display: block;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.grey.lighten-2{
+    background-color: rgba(0, 0, 0, 0) !important;
+       box-shadow: none;
+       transition: .4s;
+}
+
+#logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+nav.nav-wrapper {
+
+    width: 100%;
+}
+nav ul a{
+      line-height: 1.5;
+}
+nav ul a:hover {
+  background: none;
+
+}
+nav ul a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #000;
+  transition: .2s;
+}
+nav ul a:hover::after {
+  width: 100%;
+}
+nav ul a:hover
+.scrollspy {
+  padding-top: 30px;
+}
+.valign-wrapper {
+  color: #fff;
+}
+.section {
+  margin: auto;
+}
+
+div.nav-wrapper {
+  background: white;
+  opacity: 0.5;
+
+}
