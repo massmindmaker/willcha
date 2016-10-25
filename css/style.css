@@ -25,7 +25,8 @@ p {
 
 
 .parallax-container {
-  height: 100vh;
+  height: 100%;
+  min-height: 500px;
 
 }
 section {
@@ -78,7 +79,8 @@ footer.page-footer {
       font-size: 65px;
       display: block;
       font-weight: 900;
-      }
+      text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+}
 .second-name {
   text-align: center;
       font-size: 27px;
@@ -99,7 +101,7 @@ footer.page-footer {
   left: 0;
   display: none;
 }
-nav.nav-wrapper {
+nav .nav-wrapper {
 
     width: 100%;
 }
@@ -130,10 +132,4 @@ nav ul a:hover
 }
 .section {
   margin: auto;
-}
-
-div.nav-wrapper {
-  background: white;
-  opacity: 0.5;
-
 }

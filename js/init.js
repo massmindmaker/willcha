@@ -3,8 +3,10 @@
 
     $(document).ready(function(){
   $('.scrollspy').scrollSpy(500);
-});
 
+	
+    });
+ 
 //плавный переход
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
